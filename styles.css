@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .keyboard {
+    min-width: 800px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .keyboard-row {
+    display: flex;
+    margin-bottom: 5px;
+  }
+  
+  .key {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s ease;
+    margin-right: 5px;
+  }
+  
+  .key:hover {
+    background-color: #68e735;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  .key:active {
+    background-color: #ddd;
+    box-shadow: none;
+    transform: translateY(0);
+  }
+  
+  .spacebar {
+    flex-grow: 1;
+    max-width: 400px;
+  }
+  
+  .backspace {
+    flex: 0 0 100px;
+  }
+  
+  .tab {
+    flex: 0 0 70px;
+  }
+  
+  .caps-lock {
+    flex: 0 0 90px;
+  }
+  
+  .enter {
+    flex: 0 0 100px;
+  }
+  
+  .shift {
+    flex: 0 0 100px;
+  }
+  
+  .ctrl,
+  .win,
+  .alt,
+  .fn {
+    flex: 0 0 70px;
+  }
