@@ -93,13 +93,16 @@ body {
     font-size: 15px;
     width: 50px;
   }
+  .Delete{
+    flex: 0 0 36px;
+  }
   .spacebar {
     flex-grow: 1;
     max-width: 300px;
   }
   
   .backspace {
-    width: 80px;
+    flex: 0 0 130px;
   }
   
   .tab {
