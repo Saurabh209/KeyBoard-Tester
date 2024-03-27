@@ -7,21 +7,53 @@ body {
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
   }
-  
-  .keyboard {
+  .keyboard{
+    min-width: 1200px;
+    display: flex;
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  /* .keyboard_main {
     min-width: 800px;
     display: flex;
     flex-direction: column;
     background-color: #ddd;
     padding: 10px;
     border-radius: 5px;
+  } */
+  .keyboard-row-one{
+    display: flex;
   }
-  
   .keyboard-row {
     display: flex;
     margin-bottom: 5px;
   }
-  
+  .space{
+    height: 10px;
+  }
+  .keyboard_numpad_row_1{
+    display: flex;
+  }
+  .key-r1{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 20px;
+    width: 30px;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s ease;
+    margin-right: 5px;
+
+  }
   .key {
     display: flex;
     justify-content: center;
@@ -29,8 +61,10 @@ body {
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 3px;
+    height: 35px;
+    width: 35px;
     padding: 5px 10px;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     cursor: pointer;
     user-select: none;
@@ -50,34 +84,44 @@ body {
     transform: translateY(0);
   }
   
+
+  .Esc{
+    
+    flex: 0 0 35px;
+  }
+  .prtsrc{
+    font-size: 15px;
+    width: 50px;
+  }
   .spacebar {
     flex-grow: 1;
-    max-width: 400px;
+    max-width: 300px;
   }
   
   .backspace {
-    flex: 0 0 100px;
+    width: 80px;
   }
   
   .tab {
-    flex: 0 0 70px;
+    flex: 0 0 55px;
   }
   
   .caps-lock {
-    flex: 0 0 90px;
+    flex: 0 0 70px;
   }
   
   .enter {
-    flex: 0 0 100px;
+    flex: 0 0 81px;
   }
   
   .shift {
-    flex: 0 0 100px;
+    flex: 0 0 107px;
   }
   
   .ctrl,
-  .win,
-  .alt,
   .fn {
-    flex: 0 0 70px;
+    flex: 0 0 40px;
+  }
+  .ctrl_right{
+    flex:0 0 84px;
   }
