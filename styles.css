@@ -35,6 +35,17 @@ body {
   .keyboard_numpad_row_1{
     display: flex;
   }
+  .keyboard_numpad_row_3_4{
+    display: flex;
+    margin-bottom: 5px;
+  }
+  .left_side_upper{
+    display: flex;
+    margin-bottom: 5px;
+  }
+  .left_side_lower{
+    display: flex;
+  }
   .npr1{
     display: flex;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -55,6 +66,7 @@ body {
   }
   .keyboard_numpad_row_2{
     display: flex;
+    margin-bottom: 5px;
   }
   .key-r1{
     display: flex;
@@ -94,21 +106,42 @@ body {
   }
   
   .key:hover {
-    background-color: #68e735;
+    background-color: #7dc6f6;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     transform: translateY(-2px);
   }
-  
+  .key-r1:hover{
+    background-color: #7dc6f6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  .npr1:hover{
+    background-color: #7dc6f6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
   .key:active {
     background-color: #ddd;
     box-shadow: none;
     transform: translateY(0);
   }
-  
+  .key-r1:active {
+    background-color: #ddd;
+    box-shadow: none;
+    transform: translateY(0);
+  }
+  .npr1:active {
+    background-color: #ddd;
+    box-shadow: none;
+    transform: translateY(0);
+  }
 
   .Esc{
     
     flex: 0 0 35px;
+  }
+  .addkey{
+    height: 87px;
   }
   .prtsrc{
     font-size: 15px;
@@ -120,6 +153,9 @@ body {
   .spacebar {
     flex-grow: 1;
     max-width: 300px;
+  }
+  .zero{
+    width: 97px;
   }
   
   .backspace {
