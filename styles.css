@@ -8,7 +8,7 @@ body {
     font-family: Arial, sans-serif;
   }
   .keyboard{
-    min-width: 1200px;
+    min-width: 1110px;
     display: flex;
     background-color: #ddd;
     padding: 10px;
@@ -33,6 +33,27 @@ body {
     height: 10px;
   }
   .keyboard_numpad_row_1{
+    display: flex;
+  }
+  .npr1{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 20px;
+    width: 35px;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s ease;
+    margin-right: 5px;
+  }
+  .keyboard_numpad_row_2{
     display: flex;
   }
   .key-r1{
