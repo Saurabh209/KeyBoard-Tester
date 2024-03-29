@@ -182,6 +182,38 @@ body {
   .fn {
     flex: 0 0 40px;
   }
-  .ctrl_right{
-    flex:0 0 84px;
+  .upper_arrow_key{
+    height: 12px;
+    background-image: url(/assets/upper_arrow.png);
+    background-size:cover;
+    background-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+  }
+  .left_arrow_key{
+    background-image: url(/assets/left_arrow.png);
+    background-size:cover;
+    background-size: 24px;
+    background-repeat:no-repeat;
+  }
+  .right_arrow_key{
+    background-image: url(/assets/right_arrow.png);
+    background-size:cover;
+    background-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+  }
+  .lower_arrow_key{
+    background-image: url(/assets/bottom_arrow.png);
+    background-size:cover;
+    background-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    height: 12px;
   }
