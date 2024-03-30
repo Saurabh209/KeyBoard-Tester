@@ -182,22 +182,60 @@ body {
   .fn {
     flex: 0 0 40px;
   }
-  .upper_arrow_key{
-    height: 12px;
-    background-image: url(/assets/upper_arrow.png);
-    background-size:cover;
-    background-size: 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-repeat: no-repeat;
-  }
-  .left_arrow_key{
-    background-image: url(/assets/left_arrow.png);
-    background-size:cover;
-    background-size: 24px;
-    background-repeat:no-repeat;
-  }
+
+
+
+/*---------------------------------------------------*/
+
+.left_arrow_key{
+  background-image: url(/assets/left_arrow.png);
+  background-size:cover;
+  background-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  height: 15px;
+  width: 7px;
+  padding: 5px 10px;
+  /* border: 1px solid black; */
+}
+
+/*---------------------------------------------------*/
+.updown_arrow_key{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  height: 12px;
+  width: 35px;
+  padding: 5px 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-right: 5px;
+
+}
+
+.upper_arrow_key{
+  background-image: url(/assets/upper_arrow.png);
+  background-size:cover;
+  background-size: 24px;
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  height: 12px;
+  width: 7px;
+  padding: 5px 10px;
+  /* border: 1px solid black; */
+}
+ 
+
+
+   /*---------------------------------------------------*/
+
   .right_arrow_key{
     background-image: url(/assets/right_arrow.png);
     background-size:cover;
@@ -206,7 +244,12 @@ body {
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
+    height: 12px;
+    width: 7px;
+    padding: 5px 10px;
   }
+
+  /*---------------------------------------------------*/
   .lower_arrow_key{
     background-image: url(/assets/bottom_arrow.png);
     background-size:cover;
@@ -215,4 +258,17 @@ body {
     align-items: center;
     background-repeat: no-repeat;
     height: 12px;
+    width: 7px;
+    padding: 5px 10px;
+  }
+
+
+
+
+  /*--------clicked class----------------*/
+
+  .afterclick{
+    background-color: #7dc6f6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
   }
