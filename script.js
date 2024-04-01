@@ -201,6 +201,112 @@ function onclick(e) {
     O.classList.add("afterclick");
   } else if (e.which == 80){
     P.classList.add("afterclick");
+  } else if (e.which == 219){
+    sqrBracketOpen.classList.add("afterclick");
+  } else if (e.which == 221){
+    sqrBracketClose.classList.add("afterclick");
+  } else if (e.which == 220){
+    backwardSlash.classList.add("afterclick");
+  } else if (e.which == 103){
+    npSeven.classList.add("afterclick");
+  } else if (e.which == 104){
+    npEight.classList.add("afterclick");
+  } else if (e.which == 105){
+    npNine.classList.add("afterclick");
+  } else if (e.which == 107){
+    npPlus.classList.add("afterclick");
+  } else if (e.which == 20){
+    capslock.classList.add("afterclick");
+  } else if (e.which == 65){
+    A.classList.add("afterclick");
+  } else if (e.which == 83){
+    S.classList.add("afterclick");
+  } else if (e.which == 68){
+    D.classList.add("afterclick");
+  } else if (e.which == 70){
+    F.classList.add("afterclick");
+  } else if (e.which == 71){
+    G.classList.add("afterclick");
+  } else if (e.which == 72){
+    H.classList.add("afterclick");
+  } else if (e.which == 74){
+    J.classList.add("afterclick");
+  } else if (e.which == 75){
+    K.classList.add("afterclick");
+  } else if (e.which == 76){
+    L.classList.add("afterclick");
+  } else if (e.which == 186){
+    colon.classList.add("afterclick");
+  } else if (e.which == 222){
+    quotation.classList.add("afterclick");
+  } else if (e.which == 13){
+    enter.classList.add("afterclick");
+  } else if (e.which == 100){
+    npFour.classList.add("afterclick");
+  } else if (e.which == 101){
+    npFive.classList.add("afterclick");
+  } else if (e.which == 102){
+    npSix.classList.add("afterclick");
+  } else if (e.which == 16){
+    Lshift.classList.add("afterclick");
+  } else if (e.which == 90){
+    Z.classList.add("afterclick");
+  } else if (e.which == 88){
+    X.classList.add("afterclick");
+  } else if (e.which == 67){
+    C.classList.add("afterclick");
+  } else if (e.which == 86){
+    V.classList.add("afterclick");
+  } else if (e.which == 66){
+    B.classList.add("afterclick");
+  } else if (e.which == 78){
+    N.classList.add("afterclick");
+  } else if (e.which == 77){
+    M.classList.add("afterclick");
+  } else if (e.which == 188){
+    greaterThan.classList.add("afterclick");
+  } else if (E.which == 190){
+    lessThan.classList.add("afterclick");
+  } else if (E.which == 191){
+    questionMark.classList.add("afterclick");
+  } else if (E.which == ){
+    .classList.add("afterclick");
+  } else if (E.which == ){
+    .classList.add("afterclick");
+  } else if (E.which == ){
+    .classList.add("afterclick");
+  } else if (E.which == ){
+    .classList.add("afterclick");
+  } else if (E.which == ){
+    .classList.add("afterclick");
+  } else if (E.which == ){
+    .classList.add("afterclick");
+  } else if (E.which == ){
+    .classList.add("afterclick");
+  } else if (E.which == ){
+    .classList.add("afterclick");
+  } else if (E.which == ){
+    .classList.add("afterclick");
+  } else if (E.which == ){
+    .classList.add("afterclick");
+  } else if (E.which == ){
+    .classList.add("afterclick");
+  } else if (E.which == ){
+    .classList.add("afterclick");
+  } else if (E.which == ){
+    .classList.add("afterclick");
+  } else if (E.which == ){
+    .classList.add("afterclick");
+  } else if (E.which == ){
+    .classList.add("afterclick");
+  } else if (E.which == ){
+    .classList.add("afterclick");
+  } else if (E.which == ){
+    .classList.add("afterclick");
+  } else if (E.which == ){
+    .classList.add("afterclick");
+  } else if (E.which == ){
+    .classList.add("afterclick");
   }
 }
 
