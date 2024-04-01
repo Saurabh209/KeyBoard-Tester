@@ -193,7 +193,7 @@ body {
 
 /*---------------------------------------------------*/
 
-.leftArrow{
+.underLeftArrow{
   background-image: url(/assets/left_arrow.png);
   background-size:cover;
   background-size: 24px;
@@ -247,9 +247,10 @@ body {
   background-size:cover;
   background-size: 24px;
   display: flex;
+  justify-content: center;
   align-items: center;
   background-repeat: no-repeat;
-  height: 12px;
+  height: 15px;
   width: 7px;
   padding: 5px 10px;
   /* border: 1px solid black; */
@@ -259,7 +260,7 @@ body {
 
    /*---------------------------------------------------*/
 
-  .right_arrow_key{
+  .underRightArrow{
     background-image: url(/assets/right_arrow.png);
     background-size:cover;
     background-size: 24px;
@@ -267,7 +268,7 @@ body {
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
-    height: 12px;
+    height: 15px;
     width: 7px;
     padding: 5px 10px;
   }
