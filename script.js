@@ -111,6 +111,96 @@ function onclick(e) {
     F1.classList.add("afterclick");
   } else if (e.which == 113) {
     F2.classList.add("afterclick");
+  } else if (e.which == 114) {
+    F3.classList.add("afterclick");
+  } else if (e.which == 115){
+    F4.classList.add("afterclick");
+  } else if (e.which == 116){
+    F5.classList.add("afterclick");
+  } else if (e.which == 117) {
+    F6.classList.add("afterclick");
+  } else if (e.which == 118) {
+    F7.classList.add("afterclick");
+  } else if (e.which == 119) {
+    F8.classList.add("afterclick");
+  } else if (e.which == 120){
+    F9.classList.add("afterclick");
+  } else if (e.which == 121){
+    F10.classList.add("afterclick");
+  } else if (e.which == 122){
+    F11.classList.add("afterclick");
+  } else if (e.which == 123){
+    F12.classList.add("afterclick");
+  } else if (e.which == 45){
+    prtsrc.classList.add("afterclick");
+  } else if (e.which == 46){
+    Delete.classList.add("afterclick");
+  } else if (e.which == 36){
+    home.classList.add("afterclick");
+  } else if (e.which == 35){
+    end.classList.add("afterclick");
+  } else if (e.which == 33){
+    pgup.classList.add("afterclick");
+  } else if (e.which == 34){
+    pgdn.classList.add("afterclick");
+  } else if (e.which == 192){
+    tilde.classList.add("afterclick");
+  } else if (e.which == 49){
+    one.classList.add("afterclick");
+  } else if (e.which == 50){
+    two.classList.add("afterclick");
+  } else if (e.which == 51){
+    three.classList.add("afterclick");
+  } else if (e.which == 52){
+    four.classList.add("afterclick");
+  } else if (e.which == 53){
+    five.classList.add("afterclick");
+  } else if (e.which == 54){
+    six.classList.add("afterclick");
+  } else if (e.which == 55){
+    seven.classList.add("afterclick");
+  } else if (e.which == 56){
+    eight.classList.add("afterclick");
+  } else if (e.which == 57){
+    nine.classList.add("afterclick");
+  } else if (e.which == 48){
+    zero.classList.add("afterclick");
+  } else if (e.which == 189){
+    minus.classList.add("afterclick");
+  } else if (e.which == 187){
+    plus.classList.add("afterclick");
+  } else if (e.which == 8){
+    backspace.classList.add("afterclick");
+  } else if (e.which == 144){
+    numlock.classList.add("afterclick");
+  } else if (e.which == 111){
+    forwardSlash.classList.add("afterclick");
+  } else if (e.which == 106){
+    star.classList.add("afterclick");
+  } else if (e.which == 109){
+    npMinus.classList.add("afterclick");
+  } else if (e.which == 9){
+    tab.classList.add("afterclick");
+  } else if (e.which == 81){
+    Q.classList.add("afterclick");
+  } else if (e.which == 87){
+    W.classList.add("afterclick");
+  } else if (e.which == 69){
+    E.classList.add("afterclick");
+  } else if (e.which == 82){
+    R.classList.add("afterclick");
+  } else if (e.which == 84){
+    T.classList.add("afterclick");
+  } else if (e.which == 89){
+    Y.classList.add("afterclick");
+  } else if (e.which == 85){
+    U.classList.add("afterclick");
+  } else if (e.which == 73){
+    I.classList.add("afterclick");
+  } else if (e.which == 79){
+    O.classList.add("afterclick");
+  } else if (e.which == 80){
+    P.classList.add("afterclick");
   }
 }
 
