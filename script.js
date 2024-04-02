@@ -108,30 +108,55 @@ function onclick(e) {
   if (e.which == 27) {
     Esc.classList.add("afterclick");
   } else if (e.which == 112) {
+    e.preventDefault();
     F1.classList.add("afterclick");
+  
   } else if (e.which == 113) {
+    e.preventDefault();
     F2.classList.add("afterclick");
+    
   } else if (e.which == 114) {
+    e.preventDefault();
     F3.classList.add("afterclick");
+    
   } else if (e.which == 115) {
+    e.preventDefault();
     F4.classList.add("afterclick");
+  
   } else if (e.which == 116) {
+    e.preventDefault();
     F5.classList.add("afterclick");
+    
   } else if (e.which == 117) {
+    e.preventDefault();
     F6.classList.add("afterclick");
+    
   } else if (e.which == 118) {
+    e.preventDefault();
     F7.classList.add("afterclick");
+    
   } else if (e.which == 119) {
+    e.preventDefault();
     F8.classList.add("afterclick");
+    
   } else if (e.which == 120) {
+    e.preventDefault();
     F9.classList.add("afterclick");
+    
   } else if (e.which == 121) {
+    e.preventDefault();
     F10.classList.add("afterclick");
+    
   } else if (e.which == 122) {
+    e.preventDefault();
     F11.classList.add("afterclick");
+    
   } else if (e.which == 123) {
+    e.preventDefault();
     F12.classList.add("afterclick");
+    
   } else if (e.which == 45) {
+    e.preventDefault();
     prtsrc.classList.add("afterclick");
   } else if (e.which == 46) {
     Delete.classList.add("afterclick");
@@ -180,6 +205,7 @@ function onclick(e) {
   } else if (e.which == 109) {
     npMinus.classList.add("afterclick");
   } else if (e.which == 9) {
+    e.preventDefault();
     tab.classList.add("afterclick");
   } else if (e.which == 81) {
     Q.classList.add("afterclick");
@@ -284,6 +310,7 @@ function onclick(e) {
   }
   else if (e.which == 91) {
     win.classList.add("afterclick");
+    e.preventDefault();
   } else if (e.which == 18 && e.location == 1) {
     Lalt.classList.add("afterclick");
   } else if (e.which == 32) {
