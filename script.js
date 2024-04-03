@@ -109,10 +109,9 @@ const history = document.querySelector(".display");
 let counter = 0;
 
 function limiter(){
-  if(counter == 8){
-    display.firstElementChild.remove();
-
-    console.log("limit pass");
+  if(counter == 20){
+    history.firstElementChild.remove();
+    counter=counter-1;
   }
 
 }
@@ -124,237 +123,839 @@ function limiter(){
 function onclick(e) {
   if (e.which == 27) {
     Esc.classList.add("afterclick");
-    let data = document.createElement("div");
 
+    let data = document.createElement("div");
     data.classList.add("historyElement");
-    data.innerText=`${e.key} |`;
+    data.innerText=`${e.key}`;
     history.append(data);
     counter+=1;
     limiter();
+///////////////////////////////////////////////////////////////////////////////////
   } else if (e.which == 112) {
     e.preventDefault();
     F1.classList.add("afterclick");
+
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   
   } else if (e.which == 113) {
     e.preventDefault();
     F2.classList.add("afterclick");
+
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
     
   } else if (e.which == 114) {
     e.preventDefault();
     F3.classList.add("afterclick");
+
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
     
   } else if (e.which == 115) {
     e.preventDefault();
     F4.classList.add("afterclick");
+
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   
   } else if (e.which == 116) {
     e.preventDefault();
     F5.classList.add("afterclick");
+
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
     
   } else if (e.which == 117) {
     e.preventDefault();
     F6.classList.add("afterclick");
+
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
     
   } else if (e.which == 118) {
     e.preventDefault();
     F7.classList.add("afterclick");
+
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
     
   } else if (e.which == 119) {
     e.preventDefault();
     F8.classList.add("afterclick");
+
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
     
   } else if (e.which == 120) {
     e.preventDefault();
     F9.classList.add("afterclick");
+
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
     
   } else if (e.which == 121) {
     e.preventDefault();
     F10.classList.add("afterclick");
+
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
     
   } else if (e.which == 122) {
     e.preventDefault();
     F11.classList.add("afterclick");
+
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
     
   } else if (e.which == 123) {
     e.preventDefault();
     F12.classList.add("afterclick");
+
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
     
   } else if (e.which == 45) {
     e.preventDefault();
     prtsrc.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 46) {
     Delete.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 36) {
     home.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 35) {
     end.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 33) {
     pgup.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 34) {
     pgdn.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 192) {
     tilde.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 49) {
     one.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 50) {
     two.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 51) {
     three.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 52) {
     four.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 53) {
     five.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 54) {
     six.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 55) {
     seven.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 56) {
     eight.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 57) {
     nine.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 48) {
     zero.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 189) {
     minus.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 187) {
     plus.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 8) {
     backspace.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 144) {
     numlock.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 111) {
     forwardSlash.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 106) {
     star.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 109) {
     npMinus.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 9) {
     e.preventDefault();
     tab.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 81) {
     Q.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 87) {
     W.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 69) {
     E.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 82) {
     R.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 84) {
     T.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 89) {
     Y.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 85) {
     U.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 73) {
     I.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 79) {
     O.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 80) {
     P.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 219) {
     sqrBracketOpen.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 221) {
     sqrBracketClose.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 220) {
     backwardSlash.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 103) {
     npSeven.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 104) {
     npEight.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 105) {
     npNine.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 107) {
     npPlus.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 20) {
     capslock.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 65) {
     A.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 83) {
     S.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 68) {
     D.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 70) {
     F.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 71) {
     G.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 72) {
     H.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 74) {
     J.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 75) {
     K.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 76) {
     L.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 186) {
     colon.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 222) {
     quotation.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 13 && e.location == 0) {
     enter.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 100) {
     npFour.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 101) {
     npFive.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 102) {
     npSix.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 16 && e.location == 1) {
     Lshift.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 90) {
     Z.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 88) {
     X.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 67) {
     C.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 86) {
     V.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 66) {
     B.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 78) {
     N.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 77) {
     M.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 190) {
     greaterThan.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 188) {
     lessThan.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 191) {
     questionMark.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 16 && e.location == 2) {
     Rshift.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 97) {
     npOne.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 98) {
     npTwo.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 99) {
     npThree.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 17 && e.location == 1) {
     Lctrl.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 13 && e.location == 3){
     npEnter.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   }
   else if (e.which == 91) {
-    win.classList.add("afterclick");
     e.preventDefault();
+    win.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
+    
   } else if (e.which == 18 && e.location == 1) {
     Lalt.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 32) {
     spacebar.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`space`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 18 && e.location == 2) {
     Ralt.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 17 && e.location == 2) {
     Rctrl.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 38) {
     upperArrow.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`Up`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 40) {
     lowerArrow.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`Down`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 37) {
     leftArrow.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`Left`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 39) {
     rightArrow.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`Right`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 96) {
     npZero.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 110) {
     npDot.classList.add("afterclick");
+    let data = document.createElement("div");
+    data.classList.add("historyElement");
+    data.innerText=`${e.key}`;
+    history.append(data);
+    counter+=1;
+    limiter();
   }
 }
 window.addEventListener("keydown", onclick);
