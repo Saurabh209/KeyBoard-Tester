@@ -334,3 +334,13 @@ function onclick(e) {
   }
 }
 window.addEventListener("keydown", onclick);
+
+
+let a = true;
+let b = 1;
+
+if(a==b){
+  console.log("both are equal");
+}else{
+  console.log("popat ho gaya tera");
+}

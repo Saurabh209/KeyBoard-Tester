@@ -1,12 +1,23 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",;
   }
+  .display{
+    height: 100px;
+    width: 1110px;
+    border: 10px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 30px;
+
+  }
+
+
   .keyboard{
     min-width: 1110px;
     display: flex;
@@ -103,8 +114,11 @@ body {
     user-select: none;
     transition: all 0.2s ease;
     margin-right: 5px;
+    animation:clickAnimation 0.3s ease;
   }
   
+
+
   .key:hover {
     background-color: #7dc6f6;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);

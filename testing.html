@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Button</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .button {
+            position: relative;
+            display: inline-block;
+            padding: 12px 24px;
+            border: 2px solid #007bff;
+            border-radius: 4px;
+            background-color: #fff;
+            color: #007bff;
+            font-size: 16px;
+            text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+            transition: border-color 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .button.active {
+            border-color: #28a745;
+            animation: clickAnimation 0.3s ease;
+        }
+
+        @keyframes clickAnimation {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(0.9);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <button class="button">Click Me</button>
+
+    <script>
+        const button = document.querySelector('.button');
+
+        document.addEventListener('keydown', (event) => {
+            button.classList.add('active');
+            setTimeout(() => {
+                button.classList.remove('active');
+            }, 300);
+        });
+    </script>
+</body>
+</html>
