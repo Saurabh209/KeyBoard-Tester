@@ -104,9 +104,33 @@ const rightArrow = document.querySelector(".rightArrow");
 const npZero = document.querySelector(".npZero");
 const npDot = document.querySelector(".npDot");
 
+const history = document.querySelector(".display");
+
+let counter = 0;
+
+function limiter(){
+  if(counter == 8){
+    display.firstElementChild.remove();
+
+    console.log("limit pass");
+  }
+
+}
+
+
+
+
+
 function onclick(e) {
   if (e.which == 27) {
     Esc.classList.add("afterclick");
+    let data = document.createElement("div");
+
+    data.classList.add("historyElement");
+    data.innerText=`${e.key} |`;
+    history.append(data);
+    counter+=1;
+    limiter();
   } else if (e.which == 112) {
     e.preventDefault();
     F1.classList.add("afterclick");
@@ -334,13 +358,4 @@ function onclick(e) {
   }
 }
 window.addEventListener("keydown", onclick);
-
-
-let a = true;
-let b = 1;
-
-if(a==b){
-  console.log("both are equal");
-}else{
-  console.log("popat ho gaya tera");
-}
+    

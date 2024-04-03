@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -61,6 +61,142 @@
                 button.classList.remove('active');
             }, 300);
         });
+    </script>
+</body>
+</html> -->
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Click History</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .button {
+            padding: 12px 24px;
+            border: 2px solid #007bff;
+            border-radius: 4px;
+            background-color: #fff;
+            color: #007bff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .history {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 300px;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .history-item {
+            padding: 5px;
+            background-color: #fff;
+            border-radius: 4px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <button class="button">Click Me</button>
+    <div class="history"></div>
+
+    <script>
+        const button = document.querySelector('.button');
+        const history = document.querySelector('.history');
+
+        button.addEventListener('click', () => {
+            const timestamp = new Date().toLocaleString();
+            const historyItem = document.createElement('div');
+            historyItem.classList.add('history-item');
+            historyItem.textContent = `Button clicked at ${timestamp}`;
+            history.appendChild(historyItem);
+        });
+    </script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Screen Toggle</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .button {
+            padding: 12px 24px;
+            border: 2px solid #007bff;
+            border-radius: 4px;
+            background-color: #fff;
+            color: #007bff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <button class="button" id="fullScreenButton">Toggle Full Screen</button>
+
+    <script>
+        const button = document.getElementById('fullScreenButton');
+        let isFullScreen = false;
+
+        button.addEventListener('click', () => {
+            if (!isFullScreen) {
+                openFullscreen();
+            } else {
+                closeFullscreen();
+            }
+        });
+
+        function openFullscreen() {
+            if (document.documentElement.requestFullscreen) {
+                document.documentElement.requestFullscreen();
+            } else if (document.documentElement.webkitRequestFullscreen) { /* Safari */
+                document.documentElement.webkitRequestFullscreen();
+            } else if (document.documentElement.msRequestFullscreen) { /* IE11 */
+                document.documentElement.msRequestFullscreen();
+            }
+            isFullScreen = true;
+        }
+
+        function closeFullscreen() {
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+            } else if (document.webkitExitFullscreen) { /* Safari */
+                document.webkitExitFullscreen();
+            } else if (document.msExitFullscreen) { /* IE11 */
+                document.msExitFullscreen();
+            }
+            isFullScreen = false;
+        }
     </script>
 </body>
 </html>
