@@ -106,6 +106,10 @@ const npDot = document.querySelector(".npDot");
 
 const history = document.querySelector(".display");
 
+
+// -------------------------------------------------------------------//
+
+
 let counter = 0;
 
 function limiter(){
@@ -123,18 +127,16 @@ function limiter(){
 function onclick(e) {
   if (e.which == 27) {
     Esc.classList.add("afterclick");
-
     let data = document.createElement("div");
     data.classList.add("historyElement");
     data.innerText=`${e.key}`;
     history.append(data);
     counter+=1;
     limiter();
-///////////////////////////////////////////////////////////////////////////////////
+
   } else if (e.which == 112) {
     e.preventDefault();
     F1.classList.add("afterclick");
-
     let data = document.createElement("div");
     data.classList.add("historyElement");
     data.innerText=`${e.key}`;
@@ -145,7 +147,6 @@ function onclick(e) {
   } else if (e.which == 113) {
     e.preventDefault();
     F2.classList.add("afterclick");
-
     let data = document.createElement("div");
     data.classList.add("historyElement");
     data.innerText=`${e.key}`;
@@ -156,7 +157,6 @@ function onclick(e) {
   } else if (e.which == 114) {
     e.preventDefault();
     F3.classList.add("afterclick");
-
     let data = document.createElement("div");
     data.classList.add("historyElement");
     data.innerText=`${e.key}`;
@@ -167,7 +167,6 @@ function onclick(e) {
   } else if (e.which == 115) {
     e.preventDefault();
     F4.classList.add("afterclick");
-
     let data = document.createElement("div");
     data.classList.add("historyElement");
     data.innerText=`${e.key}`;
@@ -178,7 +177,6 @@ function onclick(e) {
   } else if (e.which == 116) {
     e.preventDefault();
     F5.classList.add("afterclick");
-
     let data = document.createElement("div");
     data.classList.add("historyElement");
     data.innerText=`${e.key}`;
@@ -189,7 +187,6 @@ function onclick(e) {
   } else if (e.which == 117) {
     e.preventDefault();
     F6.classList.add("afterclick");
-
     let data = document.createElement("div");
     data.classList.add("historyElement");
     data.innerText=`${e.key}`;
@@ -200,7 +197,6 @@ function onclick(e) {
   } else if (e.which == 118) {
     e.preventDefault();
     F7.classList.add("afterclick");
-
     let data = document.createElement("div");
     data.classList.add("historyElement");
     data.innerText=`${e.key}`;
@@ -211,7 +207,6 @@ function onclick(e) {
   } else if (e.which == 119) {
     e.preventDefault();
     F8.classList.add("afterclick");
-
     let data = document.createElement("div");
     data.classList.add("historyElement");
     data.innerText=`${e.key}`;
@@ -222,7 +217,6 @@ function onclick(e) {
   } else if (e.which == 120) {
     e.preventDefault();
     F9.classList.add("afterclick");
-
     let data = document.createElement("div");
     data.classList.add("historyElement");
     data.innerText=`${e.key}`;
@@ -233,7 +227,6 @@ function onclick(e) {
   } else if (e.which == 121) {
     e.preventDefault();
     F10.classList.add("afterclick");
-
     let data = document.createElement("div");
     data.classList.add("historyElement");
     data.innerText=`${e.key}`;
@@ -244,7 +237,6 @@ function onclick(e) {
   } else if (e.which == 122) {
     e.preventDefault();
     F11.classList.add("afterclick");
-
     let data = document.createElement("div");
     data.classList.add("historyElement");
     data.innerText=`${e.key}`;
@@ -255,7 +247,6 @@ function onclick(e) {
   } else if (e.which == 123) {
     e.preventDefault();
     F12.classList.add("afterclick");
-
     let data = document.createElement("div");
     data.classList.add("historyElement");
     data.innerText=`${e.key}`;
@@ -893,6 +884,7 @@ function onclick(e) {
     counter+=1;
     limiter();
   } else if (e.which == 18 && e.location == 2) {
+    e.preventDefault();
     Ralt.classList.add("afterclick");
     let data = document.createElement("div");
     data.classList.add("historyElement");
