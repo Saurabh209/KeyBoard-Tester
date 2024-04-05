@@ -868,6 +868,7 @@ function onclick(e) {
     limiter();
     
   } else if (e.which == 18 && e.location == 1) {
+    e.preventDefault();
     Lalt.classList.add("afterclick");
     let data = document.createElement("div");
     data.classList.add("historyElement");
