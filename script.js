@@ -840,11 +840,11 @@ function onclick(e) {
     history.append(data);
     counter+=1;
     limiter();
-  } else if (e.which == 17 && e.location == 1) {
+  } else if (e.ctrlKey == true && e.location == 1) {
     Lctrl.classList.add("afterclick");
     let data = document.createElement("div");
     data.classList.add("historyElement");
-    data.innerText=`${e.key}`;
+    data.innerText=`Ctrl`;
     history.append(data);
     counter+=1;
     limiter();
@@ -889,15 +889,16 @@ function onclick(e) {
     Ralt.classList.add("afterclick");
     let data = document.createElement("div");
     data.classList.add("historyElement");
-    data.innerText=`${e.key}`;
+    data.innerText=`alt`;
     history.append(data);
     counter+=1;
     limiter();
   } else if (e.which == 17 && e.location == 2) {
+    e.preventDefault();
     Rctrl.classList.add("afterclick");
     let data = document.createElement("div");
     data.classList.add("historyElement");
-    data.innerText=`${e.key}`;
+    data.innerText=`Ctrl`;
     history.append(data);
     counter+=1;
     limiter();

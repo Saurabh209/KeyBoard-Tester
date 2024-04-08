@@ -1,0 +1,21 @@
+.toggle-switchbar{
+  height: 26px;
+  width: 60px;
+  border: 2px solid black;
+  border-radius: 40px;
+  background-color: rgb(112, 105, 105);
+  box-shadow: 1px 1px 60px rgb(110, 108, 108) ;
+}
+
+.toggle-bar{
+  position: relative;
+  top: 3px;
+  left: 4px;
+  height: 20px;
+  width: 20px;
+  background-color: rgb(243, 240, 240);
+  /* border: 3px solid black; */
+  border-radius: 50%;
+}
+
+
