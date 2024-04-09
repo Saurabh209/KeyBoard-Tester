@@ -1,3 +1,5 @@
+const toggleSwitch = document.querySelector('.navbar-switch');
+
 const Esc = document.querySelector(".Esc");
 const F1 = document.querySelector(".F1");
 const F2 = document.querySelector(".F2");
@@ -953,4 +955,11 @@ function onclick(e) {
   }
 }
 window.addEventListener("keydown", onclick);
-    
+
+function onClick(e){
+  console.log("Clicked");
+
+}
+
+
+toggleSwitch.addEventListener('click',onClick);

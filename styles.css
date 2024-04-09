@@ -58,7 +58,7 @@
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",;
   }
 
@@ -181,7 +181,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
     border: 1px solid #ccc;
     border-radius: 3px;
     height: 35px;
