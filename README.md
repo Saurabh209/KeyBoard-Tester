@@ -56,4 +56,4 @@ Special thanks to [contributors](CONTRIBUTORS.md) who have helped to improve thi
 
 ## 📧 Contact
 
-If you have any questions or feedback regarding the Keyboard Testing Tool, you can reach out to the maintainers at (atomcode2002@gmail.com) or (Saurabh209@gmail.com).
+If you have any questions or feedback regarding the Keyboard Testing Tool, you can reach out to the maintainers at (atomcode2002@gmail.com) or (Saurabhhh2613@gmail.com).
